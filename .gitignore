@@ -1,0 +1,7 @@
+*.log
+*.ex5
+*.csv
+*.train
+*.test
+Logs\
+experts.dat

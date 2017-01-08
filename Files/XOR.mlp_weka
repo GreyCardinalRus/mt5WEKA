@@ -1,0 +1,69 @@
+=== Run information ===
+
+Scheme:weka.classifiers.functions.MultilayerPerceptron -L 0.3 -M 0.2 -N 500 -V 0 -S 0 -E 20 -H a -G -R
+Relation:     test
+Instances:    32
+Attributes:   3
+              XOR1
+              XOR0
+              prediction
+Test mode:evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -3.2825127985732663
+    Node 2    6.931984762775037
+    Node 3    -7.166206697817879
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    3.2828571630287655
+    Node 2    -6.932711727798511
+    Node 3    7.1669789305561125
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    3.8232574548983953
+    Attrib XOR1    -4.051400676013385
+    Attrib XOR0    4.051790536549368
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -4.348604544378585
+    Attrib XOR1    -4.298279222668175
+    Attrib XOR0    4.294669896967638
+    Node 2    0.0046127424881792015
+Class Sell
+    Input
+    Node 0
+Class Buy
+    Input
+    Node 1
+
+
+Time taken to build model: 29.65 seconds
+
+=== Evaluation on training set ===
+=== Summary ===
+
+Correctly Classified Instances          32              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0339
+Root mean squared error                  0.034 
+Relative absolute error                  6.7707 %
+Root relative squared error              6.8034 %
+Total Number of Instances               32     
+
+=== Detailed Accuracy By Class ===
+
+               TP Rate   FP Rate   Precision   Recall  F-Measure   ROC Area  Class
+                 1         0          1         1         1          1        Sell
+                 1         0          1         1         1          1        Buy
+Weighted Avg.    1         0          1         1         1          1    
+
+=== Confusion Matrix ===
+
+  a  b   <-- classified as
+ 16  0 |  a = Sell
+  0 16 |  b = Buy
+

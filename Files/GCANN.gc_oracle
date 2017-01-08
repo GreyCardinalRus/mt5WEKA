@@ -1,0 +1,30 @@
+[Common]
+LastStart=2014.05.01 09:04:47
+[FunctionsArray]
+DayOfWeek=0
+Hour=0
+Minute=0
+EasyClose=0
+Fractals=0
+RSI=0
+IMA=0
+StochasticK=0
+StochasticD=0
+HL=0
+High=0
+Low=0
+MACD=0
+CCI=0
+WPR=4
+AMA=0
+AO=0
+Ichimoku=0
+Envelopes=0
+Chaikin=0
+ROC=0
+[Custom]
+AnnType=CGGNGCANN
+max_E=0.001 // maximum error
+[Neurons]
+27171=1 0 9.881312916824931e-324 9.881312916824931e-324 9.881312916824931e-324 9.881312916824931e-324
+32052=1 0 9.881312916824931e-324 9.881312916824931e-324 9.881312916824931e-324 9.881312916824931e-324
